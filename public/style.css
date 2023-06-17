@@ -1,0 +1,264 @@
+@import url("https://fonts.googleapis.com/css2?family=Judson:wght@400;700&family=Roboto:wght@100;300;400;500;700;900&display=swap");
+
+:root {
+  --base-color: #121317;
+  --logo-color: #40454d;
+  --primary-color: #ffffff;
+  --secondary-color: #adadad;
+  --nav-text-color: #828b9a;
+  --horizontal-line-color: #4a4a4a;
+
+  --header-font: "Judson", serif;
+  --base-font: "Roboto", sans-serif;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+ background-color: #121317;
+ font-family: var(--base-font);
+}
+.bg-01{
+  padding-left: 30px;
+  height: 1084px;
+  background-size:100%;
+  background-image: url('/public/images/banner.png'); 
+  background-repeat:  no-repeat;
+  font-family: var(--header-font);
+}
+.nav-bar{
+  color: #828b9a;
+  display: flex;
+}
+
+.item{  
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* border:1px solid #121317; */
+  width: 150px;
+  height: 150px;
+  padding: 30px 30px;
+}
+.item{
+  font-size: 20px;
+}
+.item:nth-of-type(1) {
+  margin-right: auto;
+}
+
+.mes-01{
+  /* border: 1px solid red; */
+  margin: 0 0 0 auto; 
+  padding-left: 80px;
+  padding-top: 100px;
+  width: 600px;
+  height: 500px;
+}
+.mes-01 h2{
+  font-size: 130px;
+}
+.mes-01 h4{
+  font-size: 27px;
+}
+
+.mes-title-add{
+  color:#828B9A ;
+  display: flex;
+  align-items: center;
+}
+.mes-title-add:before{
+  border-top: 1px solid;
+  content: "";
+  width: 3em;
+  padding-left:10px;
+}
+
+.mes-title{
+  font-size: 150px;
+}
+.mes-title-add{
+  font-size: 30px;
+}
+
+.bg-02{
+  /* border: 1px solid red;  */
+  background-color:#121317;
+  background-size:100%;
+  height: 1084px;
+  position: relative;
+}
+
+.all-centense{
+  /* border: 1px solid red;  */
+  color: white;
+ 
+  width: 600px;
+  height: 500px;
+  text-align: center;
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  margin: auto;
+}
+.con-01{
+  font-size: 20px;
+}
+.con-02{
+  font-size: 70px;
+}
+.con-03{
+  font-size: 15px;
+}
+.bg-03{
+  background-size:cover;
+  /* border: 1px solid rgb(60, 0, 255);  */
+  height: 1084px;
+  background-image: url('/public/images/plane-wreck.jpg'); 
+  background-repeat:  no-repeat;
+  position: relative;
+}
+
+ul{
+  list-style-type: disc;
+	line-height:2.0em;
+	/* border-bottom: 10px solid #ccc; */
+
+}
+.ul-title{
+
+
+}
+.list{
+  list-style:none;
+  width: 500px;
+  height: 100%;
+  /* border: 1px solid rgb(60, 0, 255);  */
+  color: #ffffff;
+  background-color: #121317;
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  margin-left: auto;
+  padding-left: 30px;
+  text-align: left;
+  font-size: 35px;
+}
+.list-item::first-letter{
+  font-size: 60px;
+}
+
+.bg-04{
+  background-size:50%;
+  background-position:100%;
+  /* border: 1px solid rgb(60, 0, 255);  */
+  height: 900px;
+  background-image: url('/public/images/earth.png'); 
+  background-repeat:  no-repeat;
+  padding: 100px 100px;
+  
+}
+.all-con-04{
+  color: #ffffff;
+  width: 50%;
+  height: 100%;
+  /* border: 1px solid rgb(166, 91, 101);  */
+}
+
+.all-con-04 h4 {
+color:#adadad;  
+font-size: 20px;
+}
+.all-con-04 h1 {
+  font-size: 50px;
+  }
+
+.all-con-04 h3 {
+  color:#828B9A;  
+  
+  }
+  .all-con-04 p {
+    font-size: 15px;
+    line-height: 30px;
+    }
+
+.sq-04{
+  color:#828B9A; 
+  width: 150px;
+  height: 45px;
+  border: 1px solid #828B9A; 
+  text-align: center;
+  padding: 13px 0;
+}
+.bg-05{
+  height: 800px;
+  background-size:100%;
+  background-image: url('/public/images/aurora.png'); 
+  background-repeat:  no-repeat;
+  /* border: 1px solid rgb(60, 0, 255);  */
+}
+
+.all-con-05{
+  color: #ffffff;
+  width: 60%;
+  height: 100%;
+  /* border: 1px solid rgb(166, 91, 101);  */
+  padding: 200px 100px;
+  font-family: var(--base-font);
+  
+}
+
+.all-con-05 h3{
+  color:#adadad;  
+  font-size: 28px;
+}
+.all-con-05 h1{
+  font-size: 50px;
+}
+.all-con-05 p{
+  font-size: 28px;
+}
+.sq-05{
+  color:#ffffff; 
+  font-size: 16px;
+  background-color: #adadad26;
+  width: 150px;
+  height: 45px;
+  border: 1px solid #828B9A; 
+  text-align: center;
+  padding: 11px 0;
+}
+
+.nav-bar2{
+  border-top:1px solid #828b9a;
+  color: #828b9a;
+  display: flex;
+}
+
+.item2{  
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* border:1px solid #dfe0e3; */
+  width: 100px;
+  height: 70px;
+  margin-right: 50px;
+  padding: 10px 10x;
+}
+.item2{
+  font-size: 14px;
+}
+.item2:first-child{
+  width: 600px;
+}
+.item2:nth-of-type(1) {
+  margin-right: auto;
+}
+
